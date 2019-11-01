@@ -1,0 +1,27 @@
+.header {
+  background-color: #1d1e2b;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #babcc5;
+
+  svg {
+    width: 38px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 300px;
+
+    li:not(:first-of-type) {
+      border-left: 1px solid #babcc5;
+    }
+
+    li {
+      padding: 0 20px;
+    }
+  }
+}
