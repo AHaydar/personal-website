@@ -4,6 +4,7 @@ import GithubIcon from '../assets/icons/GithubIcon';
 import EmailIcon from '../assets/icons/EmailIcon';
 import LinkedinIcon from '../assets/icons/LinkedinIcon';
 import TwitterIcon from '../assets/icons/TwitterIcon';
+import NewEmailIcon from '../assets/icons/EmailIcon';
 import './Header.scss';
 
 const menuItems = ['home', 'work', 'blog'];
@@ -13,7 +14,7 @@ const Header = () => (
     <AliLogo />
     <ul>
       {menuItems.map(item => (
-        <li>item</li>
+        <li>{item}</li>
       ))}
     </ul>
     <div className="social-media-icons">
