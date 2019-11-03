@@ -2,7 +2,10 @@ import React from 'react';
 
 function TwitterIcon() {
   return (
-    <a href="https://twitter.com/Alee_Haydar" target="_blank">
+    <a
+      href="https://twitter.com/Alee_Haydar"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg
         enable-background="new 0 0 512 512"
         viewBox="0 0 512 512"

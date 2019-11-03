@@ -2,7 +2,10 @@ import React from 'react';
 
 function LinkedinIcon() {
   return (
-    <a href="https://www.linkedin.com/in/ahaydar/" target="_blank">
+    <a
+      href="https://www.linkedin.com/in/ahaydar/"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg
         enable-background="new 0 0 512 512"
         viewBox="0 0 512 512"

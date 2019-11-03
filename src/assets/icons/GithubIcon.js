@@ -2,7 +2,10 @@ import React from 'react';
 
 function GithubIcon() {
   return (
-    <a href="https://github.com/AHaydar" target="_blank">
+    <a
+      href="https://github.com/AHaydar"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg
         enable-background="new 0 0 512 512"
         viewBox="0 0 512 512"
