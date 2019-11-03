@@ -7,7 +7,7 @@ function LinkedinIcon() {
       target="_blank"
       rel="noopener noreferrer">
       <svg
-        enable-background="new 0 0 512 512"
+        enableBackground="new 0 0 512 512"
         viewBox="0 0 512 512"
         className="social-media-icon">
         <g>
