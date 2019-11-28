@@ -13,7 +13,7 @@ const Header = () => (
     <AliLogo />
     <ul>
       {menuItems.map(item => (
-        <li>{item}</li>
+        <li key={item}>{item}</li>
       ))}
     </ul>
     <div className="social-media-icons">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function AliLogo() {
   return (
-    <svg viewBox="0 0 32.02 32">
+    <svg viewBox="0 0 32.02 32" className="header_logo">
       <title>Ali Logo Icon</title>
       <g id="bac640e8-a957-48fb-9ac9-8c5984d64658" data-name="Layer 2">
         <g id="bc57a5d0-0f6b-4e50-b9a2-51c44bedae1d" data-name="Layer 1">

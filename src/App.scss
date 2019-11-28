@@ -9,6 +9,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
+  max-width: 100%;
+  min-width: 700px;
 }
 
 #root {
