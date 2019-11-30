@@ -15,7 +15,7 @@ const Intro = () => (
     <HomePageMainImage className="main_image" />
     <div className="intro_text">
       <h1>{introTitle}</h1>
-      <p>
+      <div>
         {introData.map(dataItem => (
           <div>
             {dataItem}
@@ -23,7 +23,7 @@ const Intro = () => (
             <br />
           </div>
         ))}
-      </p>
+      </div>
       <Button text="Get in touch" />
     </div>
   </section>
