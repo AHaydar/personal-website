@@ -9,6 +9,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
+  font-size: 18px;
+  color: #1d1e2b;
   max-width: 100%;
   min-width: 700px;
 }
@@ -33,4 +35,9 @@ body {
   .social-media-email {
     margin-top: 6px;
   }
+}
+
+h1 {
+  font-size: 75px;
+  margin: 20px 0;
 }

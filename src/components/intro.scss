@@ -1,9 +1,15 @@
 .intro {
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .main_image {
-  width: 3000px;
-  margin: 50px 100px 50px 75px;
+  min-width: 500px;
+  width: 500px;
+  margin: 0 100px 50px 200px;
+}
+
+.intro_text {
+  margin: 50px 150px 0 0;
 }
