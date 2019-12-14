@@ -12,6 +12,11 @@
     height: 32px;
   }
 
+  a {
+    text-decoration: none;
+    color: #babcc5;
+  }
+
   ul {
     display: flex;
     justify-content: center;
@@ -33,11 +38,11 @@
   }
 
   .social-media-icons {
-    display: flex;
-    align-items: center;
-
     .social-media-icon {
       fill: #babcc5;
+    }
+
+    a {
       margin: 0 10px;
     }
   }

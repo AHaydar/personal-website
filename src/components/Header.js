@@ -6,7 +6,11 @@ import { ReactComponent as LinkedinIcon } from '../assets/icons/LinkedinIcon.svg
 import { ReactComponent as TwitterIcon } from '../assets/icons/TwitterIcon.svg';
 import './Header.scss';
 
-const menuItems = ['home', 'work', 'blog'];
+const menuItems = [
+  { title: 'home', url: '' },
+  { title: 'work', url: '' },
+  { title: 'blog', url: '' }
+];
 
 const Header = () => (
   <div className="header">
@@ -16,15 +20,25 @@ const Header = () => (
     <div>
       <ul>
         {menuItems.map(item => (
-          <li key={item}>{item}</li>
+          <li key={item.title}>
+            <a href={item.url}>{item.title}</a>
+          </li>
         ))}
       </ul>
     </div>
     <div className="social-media-icons">
-      <EmailIcon className="social-media-icon" />
-      <TwitterIcon className="social-media-icon" />
-      <LinkedinIcon className="social-media-icon" />
-      <GithubIcon className="social-media-icon" />
+      <a href="">
+        <EmailIcon className="social-media-icon" />
+      </a>
+      <a href="">
+        <TwitterIcon className="social-media-icon" />
+      </a>
+      <a href="">
+        <LinkedinIcon className="social-media-icon" />
+      </a>
+      <a href="">
+        <GithubIcon className="social-media-icon" />
+      </a>
     </div>
   </div>
 );
