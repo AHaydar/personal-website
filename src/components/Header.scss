@@ -3,25 +3,42 @@
 
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  align-items: center;
+  height: 72px;
   color: #babcc5;
 
   .header_logo {
     width: 38px;
+    height: 32px;
   }
 
   ul {
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style-type: none;
     margin-left: 150px;
+    font-size: 21px;
+    font-weight: bold;
 
     li:not(:first-of-type) {
       border-left: 1px solid #babcc5;
     }
 
     li {
-      padding: 0 20px;
+      padding: 0 30px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .social-media-icons {
+    display: flex;
+    align-items: center;
+
+    .social-media-icon {
+      fill: #babcc5;
+      margin: 0 10px;
     }
   }
 }
