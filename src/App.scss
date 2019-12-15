@@ -19,11 +19,14 @@ body {
   min-height: 100%;
 }
 
-.logo-path {
-  fill: #babcc5;
+button {
+  outline: none;
 }
 
-h1 {
-  font-size: 75px;
-  margin: 20px 0;
+a {
+  text-decoration: none;
+}
+
+.logo-path {
+  fill: #babcc5;
 }

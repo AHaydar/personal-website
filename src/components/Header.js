@@ -27,16 +27,16 @@ const Header = () => (
       </ul>
     </div>
     <div className="social-media-icons">
-      <a href="">
+      <a href="mailto:ali.haydar85@gmail.com">
         <EmailIcon className="social-media-icon" />
       </a>
-      <a href="">
+      <a href="https://twitter.com/Alee_Haydar">
         <TwitterIcon className="social-media-icon" />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/ahaydar/">
         <LinkedinIcon className="social-media-icon" />
       </a>
-      <a href="">
+      <a href="https://github.com/AHaydar">
         <GithubIcon className="social-media-icon" />
       </a>
     </div>

@@ -5,10 +5,17 @@
 }
 
 .main_image {
-  min-width: 400px;
+  min-width: 432px;
+  height: 432px;
   margin: 0 100px 50px 200px;
 }
 
 .intro_text {
-  margin-right: 150px;
+  margin-right: 200px;
+}
+
+.intro-title {
+  font-size: 96px;
+  margin: 0 0 40px 0;
+  font-weight: bold;
 }
