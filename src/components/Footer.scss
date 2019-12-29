@@ -1,0 +1,16 @@
+.footer {
+  background-color: #1d1e2b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: #babcc5;
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    & > span {
+      margin-left: 20px;
+    }
+  }
+}

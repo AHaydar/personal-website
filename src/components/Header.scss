@@ -7,11 +7,6 @@
   height: 72px;
   color: #babcc5;
 
-  .header_logo {
-    width: 38px;
-    height: 32px;
-  }
-
   a {
     color: #babcc5;
   }
@@ -33,16 +28,6 @@
       padding: 0 30px;
       display: flex;
       align-items: center;
-    }
-  }
-
-  .social-media-icons {
-    .social-media-icon {
-      fill: #babcc5;
-    }
-
-    a {
-      margin: 0 10px;
     }
   }
 }
