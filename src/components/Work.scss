@@ -1,0 +1,23 @@
+.my-work {
+  margin: 120px 0 50px 0;
+  height: 620px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../assets/images/BlueGradientBackground.svg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+
+  h1 {
+    margin: 50px 0 60px 0;
+  }
+
+  .work-items {
+    display: flex;
+    justify-content: space-around;
+    color: #f2f7f9;
+    margin: 0 50px;
+  }
+}
