@@ -1,24 +1,53 @@
-.my-work {
-  margin: 0 0 50px 0;
-  height: 620px;
-  max-width: 100%;
-  min-width: 939px;
-  background-repeat: no-repeat;
-  background-image: url('../assets/images/BlueGradientBackground.svg');
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #ffffff;
-
-  h1 {
-    margin: 50px 0 60px 0;
-  }
-
-  .work-items {
+@media (min-width: 600px) {
+  .my-work {
+    margin: 0 0 50px 0;
+    height: 620px;
+    max-width: 100%;
+    min-width: 1330px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/images/BlueGradientBackground.svg');
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
-    color: #f2f7f9;
-    margin: 0 50px;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+
+    h1 {
+      margin: 50px 0 60px 0;
+    }
+
+    .work-items {
+      display: flex;
+      justify-content: space-around;
+      color: #f2f7f9;
+      margin: 0 50px;
+    }
+  }
+}
+
+@media (min-width: 1730px) {
+  .my-work {
+    margin: 0 0 50px 0;
+    height: 620px;
+    max-width: 100%;
+    min-width: 1330px;
+    background-repeat: no-repeat;
+    background-image: url('../assets/images/BlueGradientBackground.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+
+    h1 {
+      margin: 50px 0 60px 0;
+    }
+
+    .work-items {
+      display: flex;
+      justify-content: space-around;
+      color: #f2f7f9;
+      margin: 0 50px;
+    }
   }
 }
