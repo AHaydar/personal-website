@@ -17,7 +17,7 @@ const GetInTouch = () => (
       <Button text={'Get in touch'} />
     </div>
     <div className="contact-image">
-      <img src={AliImage} alt="Profile picture" />
+      <img src={AliImage} alt="Profile" />
     </div>
   </div>
 );

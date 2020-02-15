@@ -1,9 +1,11 @@
-.get-in-touch {
-  .contact-image {
-    img {
-      width: 10px;
-      height: 100%;
-      border-radius: 50%;
+@media (max-width: 600px) {
+  .get-in-touch {
+    .contact-image {
+      img {
+        width: 10px;
+        height: 100%;
+        border-radius: 50%;
+      }
     }
   }
 }

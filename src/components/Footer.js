@@ -9,7 +9,7 @@ const Footer = () => (
       <AliLogo />
       <span>© ALI HAYDAR 2020</span>
     </div>
-    <SocialMediaIcons />
+    <SocialMediaIcons className="social-media-icons" />
   </div>
 );
 
