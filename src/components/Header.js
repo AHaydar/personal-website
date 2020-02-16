@@ -24,6 +24,7 @@ const Header = () => {
   };
 
   const headerItemStatus = `header-item-status ${mobileHeaderItemsStatus}`;
+  
   return (
     <div className="header">
       <div className="header-logo">
