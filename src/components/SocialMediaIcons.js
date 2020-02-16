@@ -5,8 +5,8 @@ import { ReactComponent as LinkedinIcon } from '../assets/icons/LinkedinIcon.svg
 import { ReactComponent as TwitterIcon } from '../assets/icons/TwitterIcon.svg';
 import './SocialMediaIcons.scss';
 
-const SocialMediaIcons = () => (
-  <div className="social-media-icons">
+const SocialMediaIcons = props => (
+  <div {...props}>
     <a href="mailto:ali.haydar85@gmail.com">
       <EmailIcon className="social-media-icon" />
     </a>

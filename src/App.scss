@@ -9,20 +9,17 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
-  font-size: 19px;
+  font-size: 16px;
   color: #1d1e2b;
   max-width: 100%;
-  min-width: 800px;
+  min-width: 100%;
+}
+button {
+  outline: none;
 }
 
 #root {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-button {
-  outline: none;
+  width: 100%;
 }
 
 a {
@@ -31,4 +28,42 @@ a {
 
 .logo-path {
   fill: #babcc5;
+}
+
+@media (min-width: 600px) {
+  html,
+  body {
+    min-width: 800px;
+  }
+
+  #root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1730px) {
+  html,
+  body {
+    min-width: 800px;
+  }
+
+  #root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  button {
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo-path {
+    fill: #babcc5;
+  }
 }
