@@ -6,8 +6,8 @@ import './Header.scss';
 
 const menuItems = [
   { title: 'home', url: '' },
-  { title: 'work', url: '' },
-  { title: 'blog', url: '' }
+  { title: 'work', url: '#myWork' },
+  { title: 'blog', url: 'https://medium.com/@ali.haydar' },
 ];
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   const headerItemStatus = `header-item-status ${mobileHeaderItemsStatus}`;
-  
+
   return (
     <div className="header">
       <div className="header-logo">
@@ -33,7 +33,7 @@ const Header = () => {
       <div className={headerItemStatus}>
         <div>
           <ul>
-            {menuItems.map(item => (
+            {menuItems.map((item) => (
               <li key={item.title}>
                 <a href={item.url}>{item.title}</a>
               </li>

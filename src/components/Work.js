@@ -30,7 +30,7 @@ const workItems = [
 ];
 
 const Work = () => (
-  <section className="my-work">
+  <section className="my-work" id="myWork">
     <h1>Bits From My Career</h1>
     <div className="work-items">
       {workItems.map((item) => (
