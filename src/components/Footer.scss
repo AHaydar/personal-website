@@ -1,3 +1,29 @@
+@media (max-width: 600px) {
+  .footer {
+    background-color: #1d1e2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #babcc5;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+    .ali-logo {
+      display: none;
+    }
+
+    .copyright {
+      display: flex;
+      align-items: center;
+      & > span {
+        margin: 20px;
+      }
+    }
+  }
+}
+
 @media (min-width: 600px) {
   .footer {
     background-color: #1d1e2b;

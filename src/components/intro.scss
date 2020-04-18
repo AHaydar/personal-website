@@ -1,3 +1,22 @@
+@media (max-width: 600px) {
+  .intro {
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+  }
+
+  .intro_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .intro-title {
+    font-size: 46px;
+    margin: 0 0 40px 0;
+    font-weight: bold;
+  }
+}
 @media (min-width: 600px) {
   .intro {
     display: flex;
@@ -9,7 +28,6 @@
     background-image: url('../assets/images/BackgroundShape.svg');
     background-size: cover;
   }
-
   .main_image {
     min-width: 432px;
     height: 432px;

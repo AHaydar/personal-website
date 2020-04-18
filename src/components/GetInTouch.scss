@@ -1,8 +1,19 @@
 @media (max-width: 600px) {
   .get-in-touch {
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+
+    .contact-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
     .contact-image {
       img {
-        width: 10px;
+        width: 200px;
         height: 100%;
         border-radius: 50%;
       }
