@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import MenuIcon from '@material-ui/icons/Menu';
 import AliLogo from '../assets/icons/AliLogo';
 import SocialMediaIcons from './SocialMediaIcons';
@@ -6,6 +8,7 @@ import './Header.scss';
 
 const menuItems = [
   { title: 'home', url: '' },
+  { title: 'now', url: '/now' },
   { title: 'work', url: '#myWork' },
   { title: 'blog', url: 'https://medium.com/@ali.haydar' },
 ];
@@ -32,12 +35,26 @@ const Header = () => {
       </div>
       <div className={headerItemStatus}>
         <div>
-          <ul>
+          {/* <ul>
             {menuItems.map((item) => (
               <li key={item.title}>
-                <a href={item.url}>{item.title}</a>
+                <a href={item.url} onClick={()=>}>{item.title}</a>
               </li>
             ))}
+          </ul> */}
+          <ul>
+            <li>
+              <Link to="/">home</Link>
+            </li>
+            <li>
+              <Link to="/now">now</Link>
+            </li>
+            <li>
+              <HashLink to="/#myWork">work</HashLink>
+            </li>
+            <li>
+              <a href="https://medium.com/@ali.haydar">blog</a>
+            </li>
           </ul>
         </div>
         <SocialMediaIcons className="social-media-icons" />

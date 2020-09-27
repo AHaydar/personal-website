@@ -9,7 +9,7 @@ const introData = [
   {
     id: 1,
     topic:
-      'A software engineer and lifelong learner. I strongly believe that good software is built through good collaboration and communication, and hence I am a big fan of the DevOps ways of working.',
+      'A software engineer and lifelong learner. I strongly believe that good software is built through good collaboration and communication. I am a big fan of the DevOps ways of working.',
   },
   {
     id: 2,
@@ -18,7 +18,6 @@ const introData = [
   },
   {
     id: 3,
-
     topic:
       'In my spare time, when I am not geeking out, I cycle, cook, do yoga and play board games with friends.',
   },

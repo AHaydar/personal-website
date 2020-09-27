@@ -20,6 +20,7 @@ button {
 
 #root {
   width: 100%;
+  min-height: 100%;
 }
 
 a {
@@ -35,24 +36,12 @@ a {
   body {
     min-width: 850px;
   }
-
-  #root {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 1730px) {
   html,
   body {
     min-width: 850px;
-  }
-
-  #root {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
   }
 
   button {

@@ -1,19 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Intro from './components/Intro';
+import Home from './pages/Home';
+import Now from './pages/Now';
 import Footer from './components/Footer';
-import Work from './components/Work';
-import GetInTouch from './components/GetInTouch';
 import './App.scss';
 
 const App = () => (
-  <Fragment>
+  <Router>
     <Header />
-    <Intro />
-    <Work />
-    <GetInTouch />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/now" component={Now} />
+    </Switch>
     <Footer />
-  </Fragment>
+  </Router>
 );
 
 export default App;
