@@ -6,13 +6,6 @@ import AliLogo from '../assets/icons/AliLogo';
 import SocialMediaIcons from './SocialMediaIcons';
 import './Header.scss';
 
-const menuItems = [
-  { title: 'home', url: '' },
-  { title: 'now', url: '/now' },
-  { title: 'work', url: '#myWork' },
-  { title: 'blog', url: 'https://medium.com/@ali.haydar' },
-];
-
 const Header = () => {
   const [mobileHeaderItemsStatus, setHeaderItemsStatus] = useState(
     'header-items-hide'
@@ -35,19 +28,12 @@ const Header = () => {
       </div>
       <div className={headerItemStatus}>
         <div>
-          {/* <ul>
-            {menuItems.map((item) => (
-              <li key={item.title}>
-                <a href={item.url} onClick={()=>}>{item.title}</a>
-              </li>
-            ))}
-          </ul> */}
           <ul>
             <li>
-              <Link to="/">home</Link>
+              <Link to="/personal-website">home</Link>
             </li>
             <li>
-              <Link to="/now">now</Link>
+              <Link to="/personal-website/now">now</Link>
             </li>
             <li>
               <HashLink to="/#myWork">work</HashLink>
