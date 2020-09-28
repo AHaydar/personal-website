@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e8a11f3.chunk.css",
+    "main.js": "/static/js/main.ac165b18.chunk.js",
+    "main.js.map": "/static/js/main.ac165b18.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf8c75f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf8c75f0.js.map",
+    "static/js/2.a96f0390.chunk.js": "/static/js/2.a96f0390.chunk.js",
+    "static/js/2.a96f0390.chunk.js.map": "/static/js/2.a96f0390.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.28a3a5b55420a4c30d881cf4d53f6857.js": "/precache-manifest.28a3a5b55420a4c30d881cf4d53f6857.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3e8a11f3.chunk.css.map": "/static/css/main.3e8a11f3.chunk.css.map",
+    "static/js/2.a96f0390.chunk.js.LICENSE.txt": "/static/js/2.a96f0390.chunk.js.LICENSE.txt",
+    "static/media/AliImage.jpeg": "/static/media/AliImage.33903b5f.jpeg",
+    "static/media/intro.scss": "/static/media/BackgroundShape.9fc5c087.svg",
+    "static/media/Work.scss": "/static/media/BlueGradientBackground.90564c2e.svg",
+    "static/media/EmailIcon.fcd9c785.svg": "/static/media/EmailIcon.fcd9c785.svg",
+    "static/media/GithubIcon.df7de487.svg": "/static/media/GithubIcon.df7de487.svg",
+    "static/media/HomePageMainImage.f9fc260f.svg": "/static/media/HomePageMainImage.f9fc260f.svg",
+    "static/media/LinkedinIcon.76d09e0f.svg": "/static/media/LinkedinIcon.76d09e0f.svg",
+    "static/media/TwitterIcon.1bd48bb6.svg": "/static/media/TwitterIcon.1bd48bb6.svg",
+    "static/media/WorkIcon1.ae96b39b.svg": "/static/media/WorkIcon1.ae96b39b.svg",
+    "static/media/WorkIcon2.51623175.svg": "/static/media/WorkIcon2.51623175.svg",
+    "static/media/WorkIcon3.850c1be3.svg": "/static/media/WorkIcon3.850c1be3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf8c75f0.js",
+    "static/js/2.a96f0390.chunk.js",
+    "static/css/main.3e8a11f3.chunk.css",
+    "static/js/main.ac165b18.chunk.js"
+  ]
+}
